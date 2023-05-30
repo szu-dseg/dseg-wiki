@@ -1,0 +1,1 @@
+1. [Beej's Guide to Network Programming 简体中文版](https://beej-zhcn.netdpi.net/)：对于 Linux socket 网路编程的初学者而言是一份很好的教程，提供了良好的基础与开始，尤其第七章介绍了许多网络编程需注意的地方与技巧。

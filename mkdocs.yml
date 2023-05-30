@@ -1,0 +1,46 @@
+site_name: DSEG知识库
+site_url: http://dseg.ironmanzzm.top
+
+# Copyright
+copyright: 'Copyright &copy; 2023- DSEG'
+
+nav:
+  - 简介: 
+    - 欢迎！: index.md
+    - 如何参与: intro/how-to-participate.md
+    - 在本地部署DSEG Wiki: intro/deploy.md
+  - 数据结构与算法:
+    - 外部链接: data-structure/links.md
+  - 操作系统:
+    - 外部链接: os/links.md
+  - 计算机网络:
+    - 外部链接: network/links.md
+  - 数据库:
+    - 推荐阅读: database/links.md
+    - 分布式数据库:
+      - DynamoDB: database/distributed-databases/dynamodb.md
+    - 地理数据库:
+      - 数据表示与存储: database/geo-databases/spatial-data.md
+      - 3DCityDB: database/geo-databases/3dcitydb.md
+  - 大数据处理:
+    - Apache Hadoop: database/distributed-databases/apache-hadoop.md
+
+theme:
+  name: material
+  language: zh
+  custom_dir: overrides
+  favicon: images/favicon.svg
+  features:
+    - navigation.tabs
+    - navigation.instant
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - footnotes
+
+extra:
+  analytics:
+    provider: google
+    property: G-QR3HPEZ0GX
