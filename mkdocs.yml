@@ -7,7 +7,7 @@ copyright: 'Copyright &copy; 2023- DSEG'
 nav:
   - 简介: 
     - 欢迎！: index.md
-    - 如何参与: intro/how-to-participate.md
+#    - 如何参与: intro/how-to-participate.md
     - 在本地部署DSEG Wiki: intro/deploy.md
   - 数据结构与算法:
     - 外部链接: data-structure/links.md
