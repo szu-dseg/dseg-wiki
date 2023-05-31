@@ -1,3 +1,5 @@
+comments: true
+
 1. [数据库系统内幕](https://www.databass.dev/)：本书深入介绍了数据存储、数据构建块、分布式系统和数据集群，并且指出了现代数据库之间最重要的区别在于决定存储结构和数据分布的子系统。本书分为两部分：第一部分讨论节点本地的进程，并关注数据库系统的核心组件——存储引擎，以及最重要的一个特有元素；第二部分探讨如何将多个节点组织到一个数据库集群中。
 2. [数据密集型应用系统设计](http://ddia.vonng.com/#/preface)：本书从底层数据结构到顶层架构设计，将数据系统设计中的精髓娓娓道来。其中的宝贵经验无论是对架构师、DBA、还是后端工程师、甚至产品经理都会有帮助。本书为数据系统的设计、实现、与评价提供了很好的概念框架。
 3. [CMU15-445/645 数据库系统导论](http://nas.ironmanzzm.top:5000/?launchApp=SYNO.SDS.VideoStation.AppInstance#!lib%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%BE%E7%A8%8B/N4IgNglgRgTghjAniAXCALgNwM4AsD2A7gLQBMIANCAMZzoCmA5vkqiDPdfQHbpiIB9OABNh9YZQw4ChVKAgSUpABwB2KpFgJBC1KQC+VbPTjZ83PQAYAjAE59QA): 作为 CMU 数据库的入门课，这门课由数据库领域的大牛 Andy Pavlo 讲授。15-445 会自底向上地教你数据库系统的基本组成部分：存储、索引、查询，以及并发事务控制。 这门课的亮点在于专门为此课开发了一个教学用的关系型数据库 bustub，并要求你对这个数据库的组成部分进行修改，实现上述部件的功能。此外 bustub 作为一个 C++ 编写的中小型项目涵盖了程序构建、代码规范、单元测试等众多要求，可以作为一个优秀的开源项目学习。

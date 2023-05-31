@@ -1,3 +1,5 @@
+comments: true
+
 本项目依赖MkDocs([官网](https://www.mkdocs.org/))搭建，可以在自己的服务器上快速部署。
 
 安装MkDocs前请先确保本地环境安装有`python3`和`pip`。

@@ -1,3 +1,5 @@
+comments: true
+
 # Amazon DynamoDB - A Scalable, Predicably Performant, and Fully Managed NoSQL Database Service
 ## 摘要
 Amazon DynamoDB是一个NoSQL云数据库服务，可以在任意规模上提供稳定的性能。
