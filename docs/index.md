@@ -1,10 +1,11 @@
 disqus:
 pagetime:
 title: DSEG Wiki
+comments: true
 
-## 欢迎来到 **DSEG 知识库**！
+# 欢迎来到 **DSEG 知识库**！
 
-致力于成为一个分享知识的平台，欢迎各位共同参加到创作中。
+本平台致力于成为一个分享知识的地方，欢迎各位共同参加到创作中。
 
 ???+ tip
     如果在阅读过程中发现有纰漏，可以与管理员（<a href="mailto:protectione055@foxmail.com">protectione055@foxmail.com</a>）联系或向[仓库](https://github.com/szu-dseg/dseg-wiki)提交PR。

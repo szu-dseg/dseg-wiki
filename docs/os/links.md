@@ -1,3 +1,5 @@
+comments: true
+
 1. [鸟哥的Linux私房菜：基础学习篇 第四版](https://wizardforcel.gitbooks.io/vbird-linux-basic-4e/content/index.html)
 2. [MIT6.s081 操作系统概念](http://nas.ironmanzzm.top:5000/?launchApp=SYNO.SDS.VideoStation.AppInstance#!lib%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%BE%E7%A8%8B/N4IgNglgRgTghjAniAXCALgNwM4AsD2A7gLQBMIANCAMZzoCmA5vkqiDPdfQHbpiIB9OABNh9YZQw4ChVKAgSUpAJwAGKpFgJBC1KQC+VbPTjZ83PatKr9QA)：依照 xv6 的源代码去理解操作系统的众多机制和设计细节，而不是停留于理论知识。每周都会有一个 lab，让你在 xv6 上增加一些新的机制和特性，非常注重学生动手能力的培养。整个学期一共有 11 个 lab，让你全方位地深刻理解操作系统的每个部分，非常有成就感。而且所有的lab都有着非常完善的测试框架。后半程会讲授操作系统领域的多篇经典论文，涉及文件系统、系统安全、网络、虚拟化等等多个主题，让你有机会接触到学界最前沿的研究方向。
 3. [CMU 15-213 深入理解计算机系统](http://nas.ironmanzzm.top:5000/?launchApp=SYNO.SDS.VideoStation.AppInstance#!lib%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%BE%E7%A8%8B/N4IgNglgRgTghjAniAXCALgNwM4AsD2A7gLQBMIANCAMZzoCmA5vkqiDPdfQHbpiIB9OABNh9YZQw4ChVKAgSUpAKwAGKpFgJBC1KQC+VbPTjZ83VAEZ9QA)：CMU 大名鼎鼎的镇系神课，以其内容庞杂，Project 巨难而闻名遐迩。课程内容覆盖了汇编语言、体系结构、操作系统、编译链接、并行、网络等，作为系统入门课，兼具深度和广度，如果自学确实需要相当的毅力和代码功底。

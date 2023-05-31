@@ -42,10 +42,18 @@ theme:
     - navigation.instant
 
 markdown_extensions:
+  - abbr
+  - attr_list
   - admonition
   - pymdownx.details
   - pymdownx.superfences
   - footnotes
+  - def_list
+  - tables
+  - pymdownx.highlight:
+      anchor_linenums: true
+      auto_title: true
+  - pymdownx.superfences
 
 extra:
   analytics:
