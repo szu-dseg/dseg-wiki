@@ -9,11 +9,11 @@ pip install mkdocs
 
 # 2、拉取DSEG-wiki仓库
 ```
-git clone 
+git clone https://github.com/szu-dseg/dseg-wiki
 ```
 完成安装后拉取远程仓库到本地，进入项目目录中：
 ```
-cd DSEG-wiki
+cd dseg-wiki
 ```
 
 # 3、启动服务

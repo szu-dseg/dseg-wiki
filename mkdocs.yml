@@ -2,7 +2,7 @@ site_name: DSEG知识库
 site_url: http://dseg.ironmanzzm.top
 
 # Copyright
-copyright: 'Copyright &copy; 2023- DSEG'
+copyright: 'Copyright &copy; 2023 DSEG@SZU'
 
 nav:
   - 简介: 
@@ -10,20 +10,27 @@ nav:
 #    - 如何参与: intro/how-to-participate.md
     - 在本地部署DSEG Wiki: intro/deploy.md
   - 数据结构与算法:
-    - 外部链接: data-structure/links.md
+    - 推荐资料: data-structure/links.md
   - 操作系统:
-    - 外部链接: os/links.md
+    - 推荐资料: os/links.md
   - 计算机网络:
-    - 外部链接: network/links.md
+    - 推荐资料: network/links.md
   - 数据库:
-    - 推荐阅读: database/links.md
-    - 分布式数据库:
-      - DynamoDB: database/distributed-databases/dynamodb.md
+    - 推荐资料: database/links.md
+    - NoSQL数据库:
+      - DynamoDB: distributed-system/distributed-databases/dynamodb.md
     - 地理数据库:
       - 数据表示与存储: database/geo-databases/spatial-data.md
       - 3DCityDB: database/geo-databases/3dcitydb.md
-  - 大数据处理:
-    - Apache Hadoop: database/distributed-databases/apache-hadoop.md
+  - 分布式系统:
+    - 推荐资料: distributed-system/links.md
+    - Apache Hadoop: distributed-system/distributed-databases/apache-hadoop.md
+  - 机器学习:
+    - 推荐资料: machine-learning/links.md
+  - 研究内容:
+    - 概览: research-topic/intro.md
+    - 智慧城市:
+      - 传感器数据集成: research-topic/cim/integrating-sensor.md
 
 theme:
   name: material

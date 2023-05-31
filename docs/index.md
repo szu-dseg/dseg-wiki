@@ -4,13 +4,13 @@ title: DSEG Wiki
 
 ## 欢迎来到 **DSEG 知识库**！
 
-本项目致力于成为一个分享知识的平台，欢迎各位共同参加到创作中。
+致力于成为一个分享知识的平台，欢迎各位共同参加到创作中。
 
 ???+ tip
-    如果在阅读过程中发现有纰漏，可以与管理员联系或向仓库提交PR。
+    如果在阅读过程中发现有纰漏，可以与管理员（<a href="mailto:protectione055@foxmail.com">protectione055@foxmail.com</a>）联系或向[仓库](https://github.com/szu-dseg/dseg-wiki)提交PR。
     
 
-本项目受 [OI Wiki](https://oi-wiki.org/) 的启发，特此致谢。
+<!-- 本项目受 [OI Wiki](https://oi-wiki.org/) 的启发，特此致谢。 -->
 
 <!-- <script>
   // #758
