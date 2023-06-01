@@ -24,3 +24,8 @@ mkdocs serve [--dev-addr $IP:$PORT]
 ```
 这样就可以在浏览器通过http://IP:PORT/打开网站了。
 
+# 4. 开启插件
+```bash
+pip install mkdocs-git-revision-date-localized-plugin
+```
+<!-- pip install mkdocs-git-committers-plugin-2 -->
