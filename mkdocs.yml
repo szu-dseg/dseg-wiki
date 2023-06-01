@@ -11,29 +11,50 @@ nav:
   - 简介: 
     - 欢迎！: index.md
 #    - 如何参与: intro/how-to-participate.md
-    - 在本地部署DSEG Wiki: intro/deploy.md
+    - 如何部署: intro/deploy.md
   - 数据结构与算法:
     - 推荐资料: data-structure/links.md
+
   - 操作系统:
     - 推荐资料: os/links.md
+    - Linux:
+      - 终端复用器tmux: os/linux/tmux.md
+
   - 计算机网络:
     - 推荐资料: network/links.md
+
   - 数据库:
     - 推荐资料: database/links.md
+    - OLTP系统:
+      - 存储层:
+        - 内存与磁盘: database/storage/memory-disk.md
+        - 列存与行存: database/storage/column-row.md
+        - 数据文件与索引文件: database/storage/data-index.md
+    - HTAP系统:
+      - 简介: database/htap/htap-intro.md
+      - 代表系统:
+        - TiDB: database/htap/tidb.md
     - NoSQL数据库:
       - DynamoDB: distributed-system/distributed-databases/dynamodb.md
     - 地理数据库:
       - 数据表示与存储: database/geo-databases/spatial-data.md
       - 3DCityDB: database/geo-databases/3dcitydb.md
+
   - 分布式系统:
     - 推荐资料: distributed-system/links.md
     - Apache Hadoop: distributed-system/distributed-databases/apache-hadoop.md
+
   - 机器学习:
     - 推荐资料: machine-learning/links.md
+
   - 研究内容:
     - 概览: research-topic/intro.md
     - 智慧城市:
+      - 建筑信息模型BIM: research-topic/cim/bim-workflow.md
       - 传感器数据集成: research-topic/cim/integrating-sensor.md
+    - 数据清洗: research-topic/data-clean/intro.md
+    - 数据库测试生成: research-topic/db-simulation/intro.md
+    - 规则迁移: research-topic/rule-migrating/intro.md
 
 theme:
   name: material
@@ -46,6 +67,9 @@ theme:
     - navigation.tabs
     - navigation.instant
     - content.action.edit
+    - navigation.footer
+    - navigation.top
+    - content.tabs.link
   palette:
     primary: teal
 
@@ -69,6 +93,8 @@ markdown_extensions:
       anchor_linenums: true
       auto_title: true
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true 
 
 extra:
   analytics:
