@@ -151,33 +151,33 @@ $ tmux source-file ~/.tmux.conf
 ### 4. 快捷键
 Tmux 的快捷键非常多，但是只要掌握了最常用的几个，就可以完成大部分工作。
 
-几乎所有Tmux的命令都要配合`ctrl-d`使用。比如显示所有的Tmux session，需要输入指令`ctrl-b + s`，这意味着，你需要先同时按住`ctrl` 和 `b`，然后松开，之后按住`s`。
+几乎所有Tmux的命令都要配合`ctrl-d`使用。比如显示所有的Tmux session，需要输入指令<kbd>ctrl-b + s</kbd>，这意味着，你需要先同时按住<kbd>ctrl</kbd> 和 <kbd>b</kbd>，然后松开，之后按住<kbd>s</kbd>。
 
-帮助命令的快捷键是`Ctrl+b ?`，在 Tmux 窗口中，先按下`Ctrl+b`，再按下`?`，就会显示帮助信息。
+帮助命令的快捷键是<kbd>Ctrl+b ?</kbd>，在 Tmux 窗口中，先按下<kbd>Ctrl+b</kbd>，再按下<kbd>?</kbd>，就会显示帮助信息。
 
-然后，按下 `ESC` 键或`q`键，就可以退出帮助。
+然后，按下 <kbd>ESC</kbd> 键或<kbd>q</kbd>键，就可以退出帮助。
 
 #### 4.1 会话操作快捷键
 
- - ctrl-b + `s`：显示所有的会话、窗口、面板信息。
- - ctrl-b + `d`：断开当前会话，但不会退出会话，可以用`tmux attach`重新连接。
+ - ctrl-b + <kbd>s</kbd>：显示所有的会话、窗口、面板信息。
+ - ctrl-b + <kbd>d</kbd>：断开当前会话，但不会退出会话，可以用`tmux attach`重新连接。
 
 #### 4.2 窗格操作快捷键
 
- - Ctrl+b `%`：划分左右两个窗格。
- - Ctrl+b `"`：划分上下两个窗格。
- - Ctrl+b <arrow key>：光标切换到其他窗格。<arrow key>是指向要切换到的窗格的方向键，比如切换到下方窗格，就按方向键`↓`.
- - Ctrl+b `;`;：光标切换到上一个窗格。
- - Ctrl+b `o`：光标切换到下一个窗格。
- - Ctrl+b `{`：当前窗格与上一个窗格交换位置。
- - Ctrl+b `}`：当前窗格与下一个窗格交换位置。
- - Ctrl+b `Ctrl+o`：所有窗格向前移动一个位置，第一个窗格变成最后一个窗格。
- - Ctrl+b `Alt+o`：所有窗格向后移动一个位置，最后一个窗格变成第一个窗格。
- - Ctrl+b `x`：关闭当前窗格。
- - Ctrl+b `!`：将当前窗格拆分为一个独立窗口。
- - Ctrl+b `z`：当前窗格全屏显示，再使用一次会变回原来大小。
- - Ctrl+b `Ctrl+<arrow key>`：按箭头方向调整窗格大小。
- - Ctrl+b `q`：显示窗格编号。
+ - Ctrl+b <kbd>%</kbd>：划分左右两个窗格。
+ - Ctrl+b <kbd>"</kbd>：划分上下两个窗格。
+ - Ctrl+b <arrow key>：光标切换到其他窗格。<arrow key>是指向要切换到的窗格的方向键，比如切换到下方窗格，就按方向键<kbd>↓</kbd>.
+ - Ctrl+b <kbd>;</kbd>;：光标切换到上一个窗格。
+ - Ctrl+b <kbd>o</kbd>：光标切换到下一个窗格。
+ - Ctrl+b <kbd>{</kbd>：当前窗格与上一个窗格交换位置。
+ - Ctrl+b <kbd>}</kbd>：当前窗格与下一个窗格交换位置。
+ - Ctrl+b <kbd>Ctrl+o</kbd>：所有窗格向前移动一个位置，第一个窗格变成最后一个窗格。
+ - Ctrl+b <kbd>Alt+o</kbd>：所有窗格向后移动一个位置，最后一个窗格变成第一个窗格。
+ - Ctrl+b <kbd>x</kbd>：关闭当前窗格。
+ - Ctrl+b <kbd>!</kbd>：将当前窗格拆分为一个独立窗口。
+ - Ctrl+b <kbd>z</kbd>：当前窗格全屏显示，再使用一次会变回原来大小。
+ - Ctrl+b <kbd>Ctrl+<arrow key></kbd>：按箭头方向调整窗格大小。
+ - Ctrl+b <kbd>q</kbd>：显示窗格编号。
 
 
 

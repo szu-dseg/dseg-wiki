@@ -1,0 +1,2 @@
+1. [Crafting Interpreters](https://github.com/GuoYaxiang/craftinginterpreters_zh)：该书由一门小型的自创语言Lox开始，分别使用Java和C实现了两种类型的解释器，jlox和clox，其中前者是将语法解析成Java中的表示代码，主要依赖Java本身的语法能力实现代码的真正运行；后者则采用了类似编译和虚拟机的机制，实现了一个看上去“更高效”的解释器。
+2. [编译原理（第2版）](https://awesome-programming-books.github.io/computer-system/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86%EF%BC%88%E7%AC%AC2%E7%89%88%EF%BC%89.pdf)：探讨了编译器设计方面的若干重要课题，被视为编译原理领域的经典教材之一。

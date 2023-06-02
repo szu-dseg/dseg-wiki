@@ -1,7 +1,9 @@
 # 使用BIM对建筑全生命周期进行管理
 
+## BIM是什么？
+建筑物的设计、工程、施工和运营是一个完整的过程，涉及到多个利益相关者的参与，以实现对人力和自然资源的有效利用。作为一个协作环境，建筑信息模型（BIM）允许对建筑设计和施工进行有效的项目管理。BIM被广泛用于小型和大型项目，特别是在促进项目团队成员之间的沟通和决策。
 
-## 什么是ifc？
+## BIM标准交换格式: IFC
 In general, IFC, or “Industry Foundation Classes”, is a standardized, digital description of the built environment, including buildings and civil infrastructure. It is an open, international standard (ISO 16739-1:2018), meant to be vendor-neutral, or agnostic, and usable across a wide range of hardware devices, software platforms, and interfaces for many different use cases. The IFC schema specification is the primary technical deliverable of buildingSMART International to fulfill its goal to promote openBIM®.
 
 More specifically, the IFC schema is a standardized data model that codifies, in a logical way…
@@ -31,7 +33,7 @@ Software vendors of building information modeling tools – including model auth
 
 Hundreds of software applications for use by many different stakeholders in the process can send and receive IFC data (see Community > Software Implementation ). Since 1997, IFC has been tried and tested through many iterations, gaining worldwide trust as a means to deliver projects from all over the world.
 
-## 案例研究
+## BIM案例研究
 ### Avia体育场
 Avia体育场建成于2010年，可容纳50000人，由擅长体育建筑设计的Populous（前身HOKSport公司）完成，是第一座完全依靠参数化设计手段完成的体育场馆。整个设计希望成为当地的标志性建筑，同时建筑本身又要与周边环境相融合。
 

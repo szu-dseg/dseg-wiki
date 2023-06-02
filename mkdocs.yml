@@ -10,15 +10,20 @@ copyright: 'Copyright &copy; 2023 DSEG@SZU'
 nav:
   - 简介: 
     - 欢迎！: index.md
-#    - 如何参与: intro/how-to-participate.md
-    - 如何部署: intro/deploy.md
+    - 如何参与创作: intro/how-to-participate.md
+    - 如何在本地部署: intro/deploy.md
+    - 更多:
+      - 掌握概念而不是拘泥细节: intro/vision.md
+  
+  - 开发工具:
+    - Linux:
+      - 终端复用器tmux: os/linux/tmux.md
+
   - 数据结构与算法:
     - 推荐资料: data-structure/links.md
 
   - 操作系统:
     - 推荐资料: os/links.md
-    - Linux:
-      - 终端复用器tmux: os/linux/tmux.md
 
   - 计算机网络:
     - 推荐资料: network/links.md
@@ -37,8 +42,12 @@ nav:
     - NoSQL数据库:
       - DynamoDB: distributed-system/distributed-databases/dynamodb.md
     - 地理数据库:
-      - 数据表示与存储: database/geo-databases/spatial-data.md
-      - 3DCityDB: database/geo-databases/3dcitydb.md
+      - 时空数据编码和存储原理: database/geo-databases/spatial-data.md
+      - 代表系统:
+        - PostGIS: database/geo-databases/postgis.md
+        - JUST: database/geo-databases/just.md
+        - GanosBase: database/geo-databases/ganosbase.md
+        - 3DCityDB: database/geo-databases/3dcitydb.md
 
   - 分布式系统:
     - 推荐资料: distributed-system/links.md
@@ -46,6 +55,9 @@ nav:
 
   - 机器学习:
     - 推荐资料: machine-learning/links.md
+
+  - 编译原理:
+    - 推荐资料: compiler/links.md
 
   - 研究内容:
     - 概览: research-topic/intro.md
@@ -91,7 +103,7 @@ markdown_extensions:
   - tables
   - pymdownx.highlight:
       anchor_linenums: true
-      auto_title: true
+      # auto_title: true
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true 
