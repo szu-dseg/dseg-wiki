@@ -17,8 +17,9 @@ nav:
   
   - 开发工具:
     - Linux:
-      - 终端复用器tmux: os/linux/tmux.md
-
+      - 终端复用器：tmux: dev-tools/linux/tmux.md
+    - 构建系统：Makefile: dev-tools/makefile.md
+      
   - 数据结构与算法:
     - 推荐资料: data-structure/links.md
 
